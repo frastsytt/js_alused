@@ -1,5 +1,4 @@
 // string conversions
-
 const name = 'Kadi';
 const surname = 'Tamm';
 const age = 20;
@@ -37,6 +36,7 @@ val = `
 		<li>Perekonnanimi: ${surname}</li>
 		<li>Vanus: ${age}</li>
 		<li>Huvid: ${tags}</li>
+		<li>Pii: ${Math.PI}</li>
 	</ul>
 `; 
 
