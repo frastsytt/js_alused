@@ -28,6 +28,20 @@ val = surname.charAt(surname.length - 1);
 val = tags.split(', ');
 val = surname.substring(1, 3);
 
+// es5
+val = '<ul>' + '<li>' + name + '</li>' + '</ul>';
+// es6
+val = `
+	<ul>
+		<li>Eesnimi: ${name}</li>
+		<li>Perekonnanimi: ${surname}</li>
+		<li>Vanus: ${age}</li>
+		<li>Huvid: ${tags}</li>
+	</ul>
+`; 
+
+document.body.innerHTML = val;
+
 console.log(val);
 console.log(typeof val);
 
