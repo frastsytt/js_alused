@@ -27,6 +27,11 @@ const person = {
 person.age = 21
 person.new = 'New'
 
+//Data types
+//Primitives
+//Text
+const name
+
 console.log(numbers);
 console.log(person);
 console.log(person.age * person.height);
