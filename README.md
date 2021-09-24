@@ -1,4 +1,4 @@
 # js_alused
-js_alused\n
-testirida_2\n
+js_alused<br />
+testirida_2<br />
 rida3
