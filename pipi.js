@@ -7,6 +7,7 @@ const listItem = document.querySelector('li.collection-item');
 val = list.children[2].children[0].style;
 val.background = 'black';
 
+
 // list.children[1].textContent = 'Study XML';
 // list.children[0].children[2] = style.color = 'blue';
 
